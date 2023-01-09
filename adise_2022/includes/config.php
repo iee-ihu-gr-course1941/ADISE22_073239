@@ -4,7 +4,7 @@ session_start();
 date_default_timezone_set("Europe/Athens");
 
 try {
-   $con = new PDO("mysql:dbname=adise;host=localhost", "it073239", "");
+   $con = new PDO("mysql:dbname=adise;host=users.iee.ihu.gr", "it073239", "");
 
    $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
    /* static property on the PDO object called ATTR_ERRMODE. 
